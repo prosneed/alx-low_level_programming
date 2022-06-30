@@ -1,8 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 /*
- * main prints the text
+ *main - prints the text
  *
- * returns 0
+ *returns 0 after printing the function
  */
 int main(void)
 {
