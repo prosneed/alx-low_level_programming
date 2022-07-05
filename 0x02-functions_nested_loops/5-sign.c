@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
- * print_sign - prints the sign of a number
- * @n: contains value to be compared
- * Return: 1 always success
+ * print_sign - return 0 letter not lowercase, 1 letter lowercase
+ *@n: the int to print
+ * Return: Always 0.
  */
 
 int print_sign(int n)
