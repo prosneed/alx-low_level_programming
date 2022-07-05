@@ -5,10 +5,8 @@
  * Return: return the remainder always 1
  */
 
-int print_last_digit(int)
+int print_last_digit(int x)
 {
-	int x;
-
 	return (x % 10);
 
 }
