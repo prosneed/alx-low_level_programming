@@ -10,7 +10,7 @@ int main(void)
 {
 	long int num = 612852475143;
 	int i, j;
-	long int largest;
+	unsigned long int largest;
 
 	for (i = 1; i <= num / 2; i++)
 	{
