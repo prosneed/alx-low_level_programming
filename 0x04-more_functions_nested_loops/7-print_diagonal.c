@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * print_diagonal - prints back slash diagonally
+ *
+ * @n: passed parameter
+ */
 
 void print_diagonal(int n)
 {
@@ -11,6 +16,7 @@ void print_diagonal(int n)
 			_putchar(32);
 		}
 		_putchar(92);
+		_putchar(10);
 	}
 }
 
