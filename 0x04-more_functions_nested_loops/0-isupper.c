@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- * int _isupper - checks if uppercase or not
- * @c - accepts c as a parameter
+ * _isupper - checks if uppercase or not
+ * @c: the character to be tracked
  * Return: 1 if upper or 0 otherwise
  */
 
 int _isupper(int c)
 {
-	if (c >= 65 && c <=96)
+	if (c >= 65 && c <= 96)
 	{
-		return (10);
+		return (1);
 	}
 	else
 	{
