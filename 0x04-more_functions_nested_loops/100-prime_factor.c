@@ -10,7 +10,7 @@ int main(void)
 {
 	long int num = 612852475143;
 	int i, j;
-	unsigned long int largest;
+	long int largest;
 
 	for (i = 1; i <= num / 2; i++)
 	{
@@ -28,6 +28,6 @@ int main(void)
 			largest = i;
 		}
 	}
-	printf("%d\n", largest);
+	printf("%ld\n", largest);
 	return (0);
 }
