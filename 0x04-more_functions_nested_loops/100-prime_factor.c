@@ -15,7 +15,7 @@ int main(void)
 	for (i = 1; i <= num / 2; i++)
 	{
 		int counter = 0;
-		
+
 		for (j = 1; j <= i; j++)
 		{
 			if (i % j == 0)
