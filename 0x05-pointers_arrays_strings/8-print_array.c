@@ -17,7 +17,7 @@ void print_array(int *a, int n)
 	}
 	else if (n == 0 || n < 0)
 	{
-		printf("wrong input");
+		printf("\n");
 	}
 	else
 	{
@@ -25,7 +25,6 @@ void print_array(int *a, int n)
 		{
 			printf("%d, ", a[i]);
 		}
-		printf("%d", a[n - 1]);
+		printf("%d\n", a[n - 1]);
 	}
-	printf("\n");
 }
