@@ -12,7 +12,7 @@ void puts2(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 	{
 	}
-	if (str[0] = "")
+	if (str[0] == "")
 	{
 		break;
 	}
