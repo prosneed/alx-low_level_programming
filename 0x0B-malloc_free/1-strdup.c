@@ -5,7 +5,7 @@
  * @str: accepts str and returns memory location
  * Return: returns pointer to memory location
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	int i;
 	char *str1;
